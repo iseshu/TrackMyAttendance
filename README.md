@@ -1,7 +1,7 @@
 # Parul Attendance Portal
 
 ## Overview
-
+![Screenshot](desktop_ss.jpeg)
 The Parul Attendance Portal is a web-based application designed to help students of Parul College easily track their attendance. By entering their credentials, users can retrieve real-time attendance data through an open-source API. The website also stores user credentials in the browser's local storage, allowing for a smooth user experience on subsequent visits.
 
 ## Features
