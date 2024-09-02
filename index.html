@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Parul Attendance Portal allows students of Parul College to easily track their attendance, with secure credential handling and real-time data retrieval.">
+    <meta name="keywords" content="Parul, Parul University, Parul College, Attendance, Track, Attendance Portal, Parul Attendance Portal, Parul College Attendance, Parul University Attendance, Parul College Attendance Portal, Parul University Attendance Portal, Parul College Attendance Tracker, Parul University Attendance Tracker, Parul College Attendance Portal, Parul University Attendance Portal, Parul College Attendance Tracker, Parul University Attendance Tracker">
+    <meta name="author" content="Seshu Sai">
+
+    <meta property="og:title" content="Parul Attendance Portal">
+    <meta property="og:description" content="Track your attendance easily with the Parul Attendance Portal.">
+    <meta property="og:image" content="/desktop_ss.jpeg">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Parul Attendance Portal">
+    <meta name="twitter:description" content="Track your attendance easily with the Parul Attendance Portal.">
+    <meta name="twitter:image" content="/desktop_ss.jpeg">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>TrackMyAttendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-text" id="loadingText">Loading...</div>
+    </div>
+    <div class="github-link">
+        <a href="https://github.com/iseshu/TrackMyAttendance" target="_blank" class="github-button">View on GitHub</a>
+    </div>
+    <div class="login">
+        <div class="creds">
+            <h1>Login</h1>
+            <p>Hey <span>Amigo</span>, Enter your parul University login details to get your Attendence </p>
+            <input type="text" name="username" id="username" placeholder="Username" value="" required>
+            <input type="password" name="password" id="password" placeholder="Password" value="" required>
+            <button onclick="login()">Login</button>
+        </div>
+        <div class="profile">
+            <div class="imgname">
+                <img src="https://ums.paruluniversity.ac.in/Images/Faculty_NoImg.jpeg" alt="profile pic" class="pic">
+                <h2 class="name">Hello <span style="color: aqua;" class="stdname"></span></h2>
+                <button onclick="logout()" class="logout">Logout</button>
+            </div>
+            <div class="attendence">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
