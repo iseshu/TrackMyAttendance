@@ -56,7 +56,7 @@ const loaddata = (data) =>{
     `;
     $('.attendence').html(html);
     $('.stdname').text(data.name);
-    $('pic').src = data.image;
+    $('.pic').attr('src', data.image);
 }
 
 
